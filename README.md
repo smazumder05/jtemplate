@@ -15,8 +15,15 @@ Installation
    <pre> You will need java 1.7 or above </pre>
    <pre> Install Gradle version 1.12 </pre>
    
-  1. Just clone this repository
-  2. Run gradle run under the project's root directory
-  3. Run gradle javadoc to generate the enhanced javadocs
+   Just clone this repository
+   Run ```
+         bash gradle run 
+       ``` 
+       under the project's root directory
+ 
+   Run ```bash
+         gradle javadoc 
+       ```
+       to generate the enhanced javadocs
   
 
