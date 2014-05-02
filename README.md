@@ -26,4 +26,5 @@ Installation
        ```
        to generate the enhanced javadocs
   
-
+### Screenshots 
+![Alt text](/resources/javadoc-demo.gif "Screenshot of Markdown Enhanced Javadoc")
