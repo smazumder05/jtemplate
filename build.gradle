@@ -12,9 +12,8 @@ apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'application'
 
-sourceCompatability='1.8'
 
-mainClassName='sm.jtemplate.Main'
+mainClassName='sm.config.Main'
 
 //Add configurations section
 configurations {
@@ -31,6 +30,7 @@ repositories {
 // In this section you declare the dependencies for your production and test code
 dependencies {
     // The production code uses the SLF4J logging API at compile time
+    compile 'commons-configuration:commons-configuration:1.10'
     compile 'org.slf4j:slf4j-api:1.7.5'
     compile 'com.google.guava:guava:17.0'
     compile 'com.codahale.metrics:metrics-core:3.0.1'
